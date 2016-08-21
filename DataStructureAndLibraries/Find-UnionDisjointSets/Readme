@@ -1,0 +1,20 @@
+Find Union Disjoint Set
+
+This is the algorithm that is substantial in the implentation of the kruskal minimum spanning tree algorithm. 
+
+The idea behind the algorithm is that we have disjoint sets with us. And we have items in those sets. We can perform union between any two elements
+meaning that the two sets that have those items will now point to a single set. Check the code and the image to have a better understanding of 
+how union works.
+
+Findset(i) .. Finds the representative of the set that has the item i.
+
+IsSameSet(i,j) checks whether two items i and j has the same representative element.
+
+initSet(_size) initially creates _size disjoint sets with each element as the parent of itself.
+
+SizeOfSet(i) returns the number of items that is present in the set that has the item i.
+
+NumberOfSets() returns the total nunmber of disjoint sets at any time.
+
+Please refer to the image for better understanding.
+
